@@ -11,11 +11,11 @@ public class Hospitall {
         float temp = Float.parseFloat(input2);
 
         if (pressure > 140 && temp > 38) {
-            System.out.println("Critical ADMIT🏥 patient");
+            JOptionPane.showMessageDialog(null, "\"Critical ADMIT🏥 patient\"");
         } else if (pressure < 140) {
-            System.out.println("Give MEDICATION 💉 to the patient");
+            JOptionPane.showMessageDialog(null, "\"Give MEDICATION 💉 to the patient\"");
         } else if (pressure > 140 && temp < 38) {
-            System.out.println("Send patient to the LABARATORY🥼🧪");
+            JOptionPane.showMessageDialog(null, "Send patient to the LABARATORY🥼🧪");
         }
 
     }
