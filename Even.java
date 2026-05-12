@@ -1,11 +1,21 @@
+import java.util.Scanner;
+
 public class Even {
-    // public Even(){}
     public static void main(String[] args) {
-        int x = 1;
-        while (x <= 100) {
-            System.out.println(x);
-            x++;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number n: ");
+        int n;
+        n = sc.nextInt();
+
+        System.out.print("Enter your name: ");
+        String name;
+        name = sc.nextLine();
+
+        for (int i = 0; i < n; i++) {
+            System.out.println(name);
         }
+
+        sc.close();
     }
 }
-/* Nooooooooo */
