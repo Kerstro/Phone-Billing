@@ -15,7 +15,7 @@ public class Hospitall {
         } else if (pressure < 140) {
             JOptionPane.showMessageDialog(null, "\"Give MEDICATION 💉 to the patient\"");
         } else if (pressure > 140 && temp < 38) {
-            JOptionPane.showMessageDialog(null, "Send patient to the LABARATORY🥼🧪");
+            JOptionPane.showMessageDialog(null, "Send patient to the 🧪LABARATORY");
         }
 
     }
