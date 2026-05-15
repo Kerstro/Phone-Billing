@@ -5,12 +5,11 @@ public class Even {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number n: ");
-        int n;
-        n = sc.nextInt();
+        int n = sc.nextInt();
 
         System.out.print("Enter your name: ");
-        String name;
-        name = sc.nextLine();
+        String name = sc.nextLine();
+        ;
 
         for (int i = 0; i < n; i++) {
             System.out.println(name);
